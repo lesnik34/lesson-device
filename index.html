@@ -5,12 +5,16 @@
     <title>Девайс</title>
     <link rel="icon" href="favicon.ico?v=4" />
     <link href="css/normalize.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap">
   </head>
 
-  <body>
-    <header>
-      <nav>
-        <a href="index.html">
+  <body class="page-body">
+    <header class="main-header">
+      <nav class="main-navigation">
+
+        <a class="main-header-logo" href="index.html">
+
           <img
             src="./img/device_logo.svg"
             width="163px"
@@ -19,14 +23,14 @@
           />
         </a>
 
-        <ul>
+        <ul class="main-site-navigation">
           <li><a href="blank.html">Поиск по сайту</a></li>
           <li><a href="blank.html">Войти</a></li>
           <li><a href="blank.html">Сравнить</a></li>
           <li><a href="blank.html">Корзина</a></li>
         </ul>
 
-        <ul>
+        <ul class="site-navigation">
           <li><a href="catalog.html">Каталог товаров</a></li>
           <li><a href="blank.html">Доставка</a></li>
           <li><a href="blank.html">Гарантия</a></li>
@@ -35,11 +39,11 @@
       </nav>
     </header>
 
-    <main>
-      <section>
+    <main class="container">
+      <section class="main-content">
         <h1>Главная страница Девайс</h1>
 
-        <div>
+        <div class="image">
           <img
             src="./img/self.jpg"
             width="384px"
@@ -48,32 +52,32 @@
           />
         </div>
 
-        <h2>Делай селфи,как Бен Стиллер!</h2>
+        <h2 class="main-discription">Делай селфи,как Бен Стиллер!</h2>
 
         <p>
           Самая длинная палка для селфи доступна в нашем магазине. <br />
           Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
         </p>
 
-        <a href="blank.html">Подробнее</a>
+        <a class="link" href="blank.html">Подробнее</a>
 
-        <ul>
+        <ul class="features">
           <li>
-            <span>8,5 м</span>
-            <span>Длина палки</span>
+            <span class="features-list">8,5 м</span>
+            <span class="featutes-item">Длина палки</span>
           </li>
           <li>
-            <span>5 кг</span>
-            <span>Вес палки</span>
+            <span class="features-list">5 кг</span>
+            <span class="featutes-item">Вес палки</span>
           </li>
           <li>
-            <span>Карбон</span>
-            <span>Материал</span>
+            <span class="features-list">Карбон</span>
+            <span class="featutes-item">Материал</span>
           </li>
         </ul>
       </section>
 
-      <section>
+      <section class="catalog">
         <h2>каталог</h2>
 
         <ul>
@@ -152,22 +156,22 @@
         </ul>
       </section>
 
-      <section>
-        <ul>
+      <section class="box">
+        <ul class="list-belivery">
           <li>
             <a href="blank.html">Дставка</a>
           </li>
           <li>
-            <a href="blamk.html">Гарантия</a>
+            <a class="link" href="blamk.html">Гарантия</a>
           </li>
           <li>
-            <a href="blank.html">Кредит</a>
+            <a class="link" href="blank.html">Кредит</a>
           </li>
         </ul>
 
-        <div>
-          <h2>Доставка</h2>
-          <p>
+        <div class="delivery">
+          <h2 class="title">Доставка</h2>
+          <p class="text">
             Мы с удовольствием доставим ваш товар прямо к вашему <br />
             подъеду совершенно бесплатно!Ведь мы неплохо <br />
             заработаем,поднимая его на ваш этаж.
@@ -181,7 +185,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="row">
         <h2>Логотипы</h2>
 
         <ul>
@@ -228,16 +232,16 @@
         </ul>
       </section>
 
-      <div>
-        <section>
-          <h2>О нас</h2>
+      <div class="wripper">
+        <section class="inner">
+          <h2 class="title">О нас</h2>
 
-          <p>
+          <p class="text">
             Огромный выбор гаджитов не оставит равнодушным гика, который есть в
             каждом из нас!
           </p>
 
-          <p>
+          <p class="text">
             Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE
             работает со многими транспортными компраниями:
           </p>
@@ -253,13 +257,13 @@
             </li>
           </ul>
 
-          <a href="blank.html">Подробнее о нас</a>
+          <a class="link" href="blank.html">Подробнее о нас</a>
         </section>
 
-        <section>
-          <h2>Контакты</h2>
+        <section class="inner-contacts">
+          <h2 class="title">Контакты</h2>
 
-          <p>
+          <p class="text">
             Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
             проверить работоспособность покупки. Всякое бывает.
           </p>
@@ -271,7 +275,7 @@
             alt="Карта с местом расположения магазина"
           />
 
-          <a href="blank.html">Напишите нам</a>
+          <a class="link" href="blank.html">Напишите нам</a>
         </section>
       </div>
 
@@ -306,8 +310,8 @@
       </div>
     </main>
 
-    <footer>
-      <div>
+    <footer class="main-footer">
+      <div class="footer-list-contacts">
         <a href="index.html">
           <img
             src="./img/device_logo.svg"
@@ -317,7 +321,7 @@
           />
         </a>
 
-        <nav>
+        <nav class="footer-contacts" >
           <ul>
             <li><a href="blank.html">Войти</a></li>
             <li><a href="blank.html">Сравнить</a></li>
@@ -326,19 +330,19 @@
         </nav>
       </div>
 
-      <div>
-        <p>г. Москва, ул. Строителей, 15</p>
+      <div class="footer-list-nav">
+        <p class="footer-contacts">г. Москва, ул. Строителей, 15</p>
 
-        <ul>
+        <ul class="footer-navigation">
           <li><a href="blank.html">Доставка</a></li>
           <li><a href="blank.html">Гарантия</a></li>
           <li><a href="blank.html">Контакты</a></li>
         </ul>
 
-        <p>Тел.: <a href="tel:+74954959595">+7 (495)495-95-95</a></p>
+        <p class="footer-contacts">Тел.: <a href="tel:+74954959595">+7 (495)495-95-95</a></p>
       </div>
 
-      <div>
+      <div class="social"> 
         <ul>
           <li>
             <a href="blank.html">
